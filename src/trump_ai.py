@@ -111,3 +111,10 @@ def monte_carlo_LP(player: Player, cards_played: list, trump_played=False, trump
     # Sort the list and return the card with the highest score
     card_rank.sort(key=lambda x: x["score"], reverse=True)
     return card_rank[0]['card']
+
+
+def find_best_hand(player: Player):
+    """This AI knows each players card and try to find the best bid by using the min max algorithm 
+
+    """
+    pass
